@@ -1,15 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { createStore, compose, applyMiddleware } from 'redux';
-import { Provider } from 'react-redux';
-import createHistory from 'history/createBrowserHistory';
-import { routerMiddleware } from 'react-router-redux';
+import { AppContainer } from 'react-hot-loader';
+import { persistStore } from 'redux-persist';
 import Root from './Root';
 
 import reducer from './stateManagement/reducer';
 import { sagaMiddleware, runSagas } from './stateManagement/sagas';
-
-const history = createHistory();
 
 let composeEnhancers;
 
@@ -24,7 +21,6 @@ const store = createStore(
   composeEnhancers(
     applyMiddleware(
       sagaMiddleware,
-      routerMiddleware(history)
     )
   ),
 );
@@ -33,6 +29,20 @@ const store = createStore(
 window.getState = () => store.getState();
 
 const root = document.getElementById('root');
-
+const persistor = persistStore(store);
 runSagas();
-render(<Root store={store} history={history} />, root);
+
+render(<Root store={store} persistor={persistor} />, root);
+
+if (module.hot) {
+  module.hot.accept('./Root', () => {
+    /* eslint global-require: 0 */
+    const NewRoot = require('./Root').default;
+    render(
+      <AppContainer>
+        <NewRoot store={store} persistor={persistor} />
+      </AppContainer>,
+      root
+    );
+  });
+}

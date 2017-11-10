@@ -1,26 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
-import { ConnectedRouter } from 'react-router-redux';
-import { Route, Redirect } from 'react-router';
+import { PersistGate } from 'redux-persist/es/integration/react'
 
-import Topic from './ui/presentation/slides/1-Topic/topic';
-import Some from './ui/presentation/slides/2-some/some';
+import Presentation from './ui/presentation';
 
-const Root = ({ store, history }) => (
+const Root = ({ store, persistor }) => (
   <Provider store={store}>
-    <ConnectedRouter history={history} key={Math.random()}>
-      <div id="content">
-        <Route exact path="/1" component={Topic} />
-        <Route exact path="/2" component={Some} />
-      </div>
-    </ConnectedRouter>
+    <PersistGate persistor={persistor}>
+      <Presentation />
+    </PersistGate>
   </Provider>
 );
 
 Root.propTypes = {
   store: PropTypes.shape().isRequired,
-  history: PropTypes.shape().isRequired,
 };
 
 export default Root;
