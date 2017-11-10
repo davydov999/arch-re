@@ -6,12 +6,18 @@ import './Plan.css';
 const Topic = ({ isActive }) => (
   <Slide isActive={isActive}>
     <div>
-      <div className="slide-head">Technology stack: </div>
+      <div className="slide-head">Plan: </div>
       <ul>
-        <li><b>React</b> - UI components</li>
-        <li><b>Redux</b> - State Management</li>
-        <li><b>Redux-saga</b> - Side effects</li>
-        <li><b>Recompose</b> - Smart/Dump components</li>
+        <li>Technology stack</li>
+        <li>Project structure</li>
+        <li>Architecture scheme</li>
+        <li>Smart/Dump component</li>
+        <li>Redux</li>
+        <li>Action types</li>
+        <li>Action creators</li>
+        <li>Reducer</li>
+        <li>Effects</li>
+        <li>Sagas</li>
       </ul>
     </div>
   </Slide>
