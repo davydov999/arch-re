@@ -1,6 +1,23 @@
+.user-info {
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .user-img {
     width: 250px;
     height: 250px;
     border: 6px solid #ddd;
     border-radius: 50%;
+}
+
+.user-name {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user-email, .user-linkedin {
+    font-size: 0.6em;
 }

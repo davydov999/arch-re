@@ -1,0 +1,19 @@
+.slide {
+    display: none;
+    justify-content: center;
+    height: 100%;
+    /* align-items: center; */
+}
+
+.slide--isActive {
+    display: flex;
+}
+
+.slide-head {
+    font-size: 1.5em;
+}
+
+.slide-content {
+    margin-top: 150px;
+    font-size: 2em;
+}

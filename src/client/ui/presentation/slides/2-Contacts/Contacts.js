@@ -6,10 +6,10 @@ import './Contacts.css'
 const Some = ({ isActive }) => (
   <Slide isActive={isActive}>
     <div className="user-info">
-      <img className="user-img" src="/assets/img/slavik-m.jpg" />
+      <img role="presentation" className="user-img" src="/assets/img/slavik-m.jpg" />
       <div className="user-name">Slava Minchonok</div>
-      <div className="user-email">Email: relogn@gmail.com</div>
-      <div className="user-linkedin">LinkedIn: /minchonok</div>
+      <div className="user-email">relogn@gmail.com</div>
+      <div className="user-linkedin">/minchonok</div>
     </div>
   </Slide>
 );

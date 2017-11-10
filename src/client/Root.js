@@ -15,6 +15,7 @@ const Root = ({ store, persistor }) => (
 
 Root.propTypes = {
   store: PropTypes.shape().isRequired,
+  persistor: PropTypes.shape().isRequired,
 };
 
 export default Root;

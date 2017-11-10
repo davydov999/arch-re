@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import './Slide.css';
 
 const Slide = ({ isActive, children }) => (
   <div className={classNames('slide', { 'slide--isActive': isActive })}>
-    { children }
+    <div className="slide-content">
+      {children}
+    </div>
   </div>
 );
 
