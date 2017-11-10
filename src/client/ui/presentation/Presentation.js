@@ -1,15 +1,10 @@
 import React from 'react';
-import { Route, Redirect } from 'react-router';
-import enhance from './Presentation_enhance';
+import slides from './slides';
 
-import Topic from './slides/1-Topic/topic';
-import Some from './slides/2-some/some';
-
-const Presentation = () => (
+const Presentation = ({ currentSlide }) => (
   <div id="content">
-    <Route exact path="/1" component={Topic} />
-    <Route exact path="/2" component={Some} />
+    { slides.map((Slide, index) => <Slide key={index} isActive={(index + 1) === currentSlide} />) }
   </div>
 );
 
-export default enhance(Presentation);
+export default Presentation;

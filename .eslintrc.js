@@ -27,7 +27,7 @@ module.exports = {
 		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
 		"import/no-extraneous-dependencies": [
 			"error", {
-				"devDependencies": ["webpack.config.js", "build/development.js", "build/production.js"]
+				"devDependencies": ["webpack.config.js", "src/client/entry.js"]
 		}]
 	}
 };
