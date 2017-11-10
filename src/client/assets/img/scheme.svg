@@ -1,0 +1,80 @@
+<svg id="Component" xmlns="http://www.w3.org/2000/svg" width="1024" height="1200" viewBox="0 0 1024 1200">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #6f6f6f;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        font-size: 40px;
+        font-family: Helvetica;
+        font-weight: 700;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #f24841;
+      }
+
+      .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #00ad5d;
+      }
+    </style>
+  </defs>
+  <g id="smart">
+    <rect id="Прямоугольник_2" data-name="Прямоугольник 2" class="cls-1" x="381" y="778" width="220" height="174"/>
+    <text id="Smart-2" data-name="Smart" class="cls-2" x="401.828" y="828.93">Smart</text>
+  </g>
+  <g id="dump">
+    <rect id="Прямоугольник_1" data-name="Прямоугольник 1" class="cls-1" x="443" y="846" width="158" height="106"/>
+    <text id="Dump-2" data-name="Dump" class="cls-2" x="464.407" y="911.094">Dump</text>
+  </g>
+  <rect id="Прямоугольник_3" data-name="Прямоугольник 3" class="cls-1" x="352" y="529" width="280" height="137"/>
+  <text id="Dispatcher-2" data-name="Dispatcher" class="cls-2" x="394.485" y="607.796">Dispatcher</text>
+  <rect id="Прямоугольник_3-2" data-name="Прямоугольник 3" class="cls-1" x="547" y="244" width="280" height="137"/>
+  <rect id="Прямоугольник_3_копия" data-name="Прямоугольник 3 копия" class="cls-1" x="566" y="260" width="280" height="137"/>
+  <rect id="Прямоугольник_3_копия_2" data-name="Прямоугольник 3 копия 2" class="cls-1" x="585" y="280" width="280" height="137"/>
+  <rect id="Прямоугольник_3_копия_3" data-name="Прямоугольник 3 копия 3" class="cls-1" x="604" y="296" width="280" height="137"/>
+  <text id="Sagas" class="cls-2" x="684.485" y="372.797">Sagas</text>
+  <rect id="Прямоугольник_3_копия_4" data-name="Прямоугольник 3 копия 4" class="cls-1" x="532" y="21" width="280" height="137"/>
+  <rect id="Прямоугольник_3_копия_5" data-name="Прямоугольник 3 копия 5" class="cls-1" x="551" y="37" width="280" height="137"/>
+  <rect id="Прямоугольник_3_копия_6" data-name="Прямоугольник 3 копия 6" class="cls-1" x="570" y="57" width="280" height="137"/>
+  <rect id="Прямоугольник_3_копия_7" data-name="Прямоугольник 3 копия 7" class="cls-1" x="589" y="73" width="280" height="137"/>
+  <text id="Effects" class="cls-2" x="664.485" y="152.797">Effects</text>
+  <rect id="Прямоугольник_3_копия_8" data-name="Прямоугольник 3 копия 8" class="cls-1" x="53" y="244" width="280" height="137"/>
+  <rect id="Прямоугольник_3_копия_9" data-name="Прямоугольник 3 копия 9" class="cls-1" x="72" y="260" width="280" height="137"/>
+  <rect id="Прямоугольник_3_копия_10" data-name="Прямоугольник 3 копия 10" class="cls-1" x="91" y="280" width="280" height="137"/>
+  <rect id="Прямоугольник_3_копия_11" data-name="Прямоугольник 3 копия 11" class="cls-1" x="110" y="296" width="280" height="137"/>
+  <text id="Reducers" class="cls-2" x="155.547" y="378.601">Reducers</text>
+  <path id="Фигура_15" data-name="Фигура 15" class="cls-3" d="M742,593h-5V491H727l12.5-50L752,491H742V593Z"/>
+  <path id="Фигура_17" data-name="Фигура 17" class="cls-4" d="M499,777h-5V719H484l12.5-50L509,719H499v58Z"/>
+  <path id="Фигура_18" data-name="Фигура 18" class="cls-3" d="M494,96h5V474h10l-12.5,50L484,474h10V96Z"/>
+  <path id="Фигура_5" data-name="Фигура 5" class="cls-4" d="M231,123h5v62h10l-12.5,50L221,185h10V123Z"/>
+  <path id="Фигура_19" data-name="Фигура 19" class="cls-4" d="M230,857v-5h92V842l50,12.5L322,867V857H230Z"/>
+  <path id="Фигура_3" data-name="Фигура 3" class="cls-3" d="M1004,138v5H923v10l-50-12.5L923,128v10h81Z"/>
+  <path id="Фигура_7" data-name="Фигура 7" class="cls-4" d="M235,855h-5V433h5V855Z"/>
+  <path id="Фигура_8" data-name="Фигура 8" class="cls-3" d="M632,593v-5H740v5H632Z"/>
+  <path id="Фигура_9" data-name="Фигура 9" class="cls-3" d="M884,370v-5h124v5H884Z"/>
+  <path id="Фигура_10" data-name="Фигура 10" class="cls-3" d="M1008,369h-5V138h5V369Z"/>
+  <path id="Фигура_11" data-name="Фигура 11" class="cls-3" d="M532,91v5H494V91h38Z"/>
+  <path id="Фигура_12" data-name="Фигура 12" class="cls-4" d="M432,529h-5V96h5V529Z"/>
+  <path id="Фигура_13" data-name="Фигура 13" class="cls-4" d="M432,91v5H231V91H432Z"/>
+  <path id="Фигура_14" data-name="Фигура 14" class="cls-4" d="M231,93h5v45h-5V93Z"/>
+  <rect id="Прямоугольник_4" data-name="Прямоугольник 4" class="cls-5" x="54" y="1050" width="40" height="40"/>
+  <text id="_-_Pure_Sync_Controlled_" data-name="- Pure (Sync, Controlled)" class="cls-2" x="112.977" y="1080.563">- Pure (Sync, Controlled)</text>
+  <rect id="Прямоугольник_4_копия" data-name="Прямоугольник 4 копия" class="cls-6" x="56" y="1114" width="40" height="40"/>
+  <text id="_-_Inpure_Sync_Async_Uncontrolled_" data-name="- Inpure (Sync/Async, Uncontrolled)" class="cls-2" x="114.977" y="1144.562">- Inpure (Sync/Async, Uncontrolled)</text>
+</svg>

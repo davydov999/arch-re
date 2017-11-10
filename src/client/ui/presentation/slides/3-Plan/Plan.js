@@ -15,9 +15,11 @@ const Topic = ({ isActive }) => (
         <li>Redux</li>
         <li>Action types</li>
         <li>Action creators</li>
-        <li>Reducer</li>
+        <li>Payload creators</li>
+        <li>Reducers</li>
         <li>Effects</li>
         <li>Sagas</li>
+        <li>Selectors</li>
       </ul>
     </div>
   </Slide>
