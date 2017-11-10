@@ -1,0 +1,19 @@
+body {
+    font-family: Futura;
+}
+
+#root, #content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
