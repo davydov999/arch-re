@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Slide from '../../components/Slide';
+import Slide from '../../components/Slide/Slide';
 import './Plan.css';
 
 const Topic = ({ isActive }) => (
@@ -11,6 +11,7 @@ const Topic = ({ isActive }) => (
         <li>Technology stack</li>
         <li>Project structure</li>
         <li>Architecture scheme</li>
+        <li>Composition</li>
         <li>Smart/Dump component</li>
         <li>Redux</li>
         <li>Action types</li>

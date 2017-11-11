@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Slide from '../../components/Slide';
+import Slide from '../../components/Slide/Slide';
 
 const style = {
   backgroundImage: 'url(/assets/img/scheme.svg)',

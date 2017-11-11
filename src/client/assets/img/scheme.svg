@@ -76,5 +76,5 @@
   <rect id="Прямоугольник_4" data-name="Прямоугольник 4" class="cls-5" x="54" y="1050" width="40" height="40"/>
   <text id="_-_Pure_Sync_Controlled_" data-name="- Pure (Sync, Controlled)" class="cls-2" x="112.977" y="1080.563">- Pure (Sync, Controlled)</text>
   <rect id="Прямоугольник_4_копия" data-name="Прямоугольник 4 копия" class="cls-6" x="56" y="1114" width="40" height="40"/>
-  <text id="_-_Inpure_Sync_Async_Uncontrolled_" data-name="- Inpure (Sync/Async, Uncontrolled)" class="cls-2" x="114.977" y="1144.562">- Inpure (Sync/Async, Uncontrolled)</text>
+  <text id="_-_Inpure_Sync_Async_Uncontrolled_" data-name="- Not pure (Sync/Async, Uncontrolled)" class="cls-2" x="114.977" y="1144.562">- Not pure (Sync/Async, Uncontrolled)</text>
 </svg>
