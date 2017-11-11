@@ -10,6 +10,8 @@ import CompositionTask from './8-CompositionTask/CompositionTask';
 import CompositionExample from './8-CompositionExample/CompositionExample';
 import SmartDump from './8-SmartDump/SmartDump';
 import SmartDumpImage from './9-SmartDumpImage/SmartDumpImage';
+import Dump from './10-Dump/Dump';
+import Smart from './10-Smart/Smart';
 
 export default [
   Topic,
@@ -18,10 +20,12 @@ export default [
   TechnologyStack,
   ProjectStructure,
   ArchitectureScheme,
-  SmartDump,
-  SmartDumpImage,
   Composition,
   CompositionImplementation,
   CompositionTask,
   CompositionExample,
+  SmartDump,
+  SmartDumpImage,
+  Dump,
+  Smart,
 ];
