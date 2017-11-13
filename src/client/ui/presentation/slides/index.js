@@ -17,12 +17,15 @@ import Redux from './16-Redux/Redux';
 import ActionTypes from './17-ActionTypes/ActionTypes';
 import ActionCreators from './18-ActionCreators/ActionCreators';
 import PayloadCreators from './19-PayloadCreators/PayloadCreators';
+import Stop from './20-Stop/Stop';
 import Reducers from './20-Reducers/Reducers';
 import StateCreators from './21-StateCreators/StateCreators';
 import ActionReducers from './22-ActionReducers/ActionReducers';
 import Effects from './23-Effects/Effects';
 import RequestCreators from './24-RequestCreators/RequestCreators';
 import Sagas from './25-Sagas/Sagas';
+import Selectors from './26-Selectors/Selectors';
+import SelectorsUsage from './27-SelectorUsage/SelectorsUsage';
 
 export default [
   Topic,
@@ -44,10 +47,13 @@ export default [
   ActionTypes,
   ActionCreators,
   PayloadCreators,
+  Stop,
   Reducers,
   StateCreators,
   ActionReducers,
   Effects,
   RequestCreators,
   Sagas,
+  Selectors,
+  SelectorsUsage,
 ];

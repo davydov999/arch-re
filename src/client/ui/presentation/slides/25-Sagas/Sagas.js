@@ -6,7 +6,7 @@ import Highlight from '../../components/Highlight/Highlight';
 const Sagas = ({ isActive }) => (
   <Slide isActive={isActive} center>
     <div>
-      <div className="slide-head">Request creators (RC)</div>
+      <div className="slide-head">Sagas (Saga)</div>
       <Highlight style={{ fontSize: '0.8em' }} className="js">
 {`import { takeLatest } from 'redux-saga';
 import { GET_USER } from './actionTypes';
