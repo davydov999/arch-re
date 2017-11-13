@@ -12,6 +12,7 @@ const TechnologyStack = ({ isActive }) => (
         <li><b>Redux</b> - State Management</li>
         <li><b>Redux-saga</b> - Side effects</li>
         <li><b>Recompose</b> - Smart/Dump components</li>
+        <li><b>Reselect</b> - State selectors</li>
       </ul>
     </div>
   </Slide>

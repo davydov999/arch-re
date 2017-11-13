@@ -14,8 +14,7 @@ module.exports = {
 	"settings": {
     "import/resolver": {
       "webpack": {
-      	"config": "build/development.js",
-				"config-index": 1,
+      	"config": "webpack.config.js",
 			},
     }
 	},

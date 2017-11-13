@@ -10,10 +10,10 @@ const SmartDump = ({ isActive }) => (
       <Highlight style={{ fontSize: '0.8em' }} className="js">
 {`import { compose, lifecycle, onlyUpdateForKeys } from 'recompose';
 import { connect } from 'react-redux';
-import { getUser } from 'state/user/actionCreators';
+import { getUserAC } from 'state/user/actionCreators';
 
 function componentDidMount() {
-  this.props.dispatch(getUser());
+  this.props.dispatch(getUserAC());
 }
 
 const enhance = compose(

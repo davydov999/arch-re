@@ -8,6 +8,7 @@ const Topic = ({ isActive }) => (
     <div>
       <div className="slide-head">Plan: </div>
       <ul>
+        <li>Introduction</li>
         <li>Technology stack</li>
         <li>Project structure</li>
         <li>Architecture scheme</li>
@@ -15,12 +16,13 @@ const Topic = ({ isActive }) => (
         <li>Smart/Dump component</li>
         <li>Redux</li>
         <li>Action types</li>
-        <li>Action creators</li>
-        <li>Payload creators</li>
-        <li>Reducers</li>
+        <li>Action creators, Payload creators</li>
+        <li>Reducers, State creators, Action reducers</li>
         <li>Effects</li>
+        <li>Request creators</li>
         <li>Sagas</li>
         <li>Selectors</li>
+        <li>Advantages/Limitations</li>
       </ul>
     </div>
   </Slide>
