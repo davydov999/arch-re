@@ -4,7 +4,7 @@ import Slide from '../../components/Slide/Slide';
 
 const Intro = ({ isActive }) => (
   <Slide isActive={isActive} center>
-    <div className="slide-head">Some worlds about bad architecture</div>
+    <div className="slide-head">Some words about bad architecture</div>
   </Slide>
 );
 
