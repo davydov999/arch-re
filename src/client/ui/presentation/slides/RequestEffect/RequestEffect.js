@@ -7,7 +7,7 @@ const RequestCreators = ({ isActive }) => (
   <Slide isActive={isActive}>
     <div>
       <div className="slide-head">Request effect</div>
-      <Highlight  className="js">
+      <Highlight className="js">
 {`// requestEffect.js
 import { put, call } from 'redux-saga/effects';
 import errorsHandler from '../../lib/errorHandler';
