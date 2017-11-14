@@ -4,7 +4,7 @@ const HappyPack = require('happypack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-module.exports = {
+const config = {
   entry: {
     app: [
       'babel-polyfill',
@@ -28,7 +28,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
-      }
+      },
     ],
   },
   resolve: {
@@ -82,3 +82,30 @@ module.exports = {
     },
   },
 };
+
+if (process.env.NODE_ENV === 'production') {
+  config.plugins = config.plugins.concat([
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production'),
+    }),
+    new webpack.LoaderOptionsPlugin({
+      // minimize: true,
+      debug: false,
+    }),
+    new webpack.optimize.AggressiveMergingPlugin(),
+    new webpack.optimize.UglifyJsPlugin({
+      beautify: false,
+      mangle: true,
+      compress: {
+        screw_ie8: true,
+      },
+      sourceMap: false,
+      comments: false,
+      minimize: true,
+    }),
+  ]);
+
+  delete config.devServer;
+}
+
+module.exports = config;
