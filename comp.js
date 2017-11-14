@@ -26,17 +26,8 @@ function flow(...funcs) {
   );
 }
 
-function add(a) {
-  return function (b) {
-    return a + b;
-  };
-}
-
-function mul(a) {
-  return function (b) {
-    return a * b;
-  };
-}
+const add = a => b => a + b;
+const mul = a => b => a * b;
 
 const composition = compose(
   mul(3),
