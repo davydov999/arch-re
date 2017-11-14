@@ -21,8 +21,14 @@ Install:
 ```
 npm i
 ```
+Build:
+```
+npm run build
+```
 Run:
 ```
-npm run dev
+npm run server
 ```
 
+Open
+[http://localhost:3000](http://localhost:3000)
