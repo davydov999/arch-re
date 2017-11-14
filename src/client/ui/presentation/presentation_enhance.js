@@ -28,6 +28,9 @@ export default compose(
   }),
   withHandlers({
     onKeyPress: ({ currentSlide, slidesCount, goToNextSlide, goToPreviousSlide }) => (ev) => {
+      // TODO: go to slide
+      // ctrl + g (go to slide)
+      // if (ev.keyCode === 71 && ev.ctrlKey) {}
       switch (ev.keyCode) {
         case KEY_CODES.UP_ARROW:
         case KEY_CODES.RIGHT_ARROW:
