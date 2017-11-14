@@ -1,35 +1,61 @@
-import Topic from './1-Topic/Topic';
-import Contacts from './2-Contacts/Contacts';
-import Plan from './3-Plan/Plan';
-import TechnologyStack from './4-TechnologyStack/TechnologyStack';
-import ProjectStructure from './5-ProjectStructure/ProjectStructure';
-import ArchitectureScheme from './6-ArchitectureScheme/ArchitectureScheme';
-import Composition from './7-Composition/Composition';
-import CompositionImplementation from './8-CompositionImplementation/CompositionImplementation';
-import CompositionTask from './9-CompositionTask/CompositionTask';
-import CompositionExample from './10-CompositionExample/CompositionExample';
-import SmartDump from './11-SmartDump/SmartDump';
-import SmartDumpImage from './12-SmartDumpImage/SmartDumpImage';
-import Dump from './13-Dump/Dump';
-import Smart from './14-Smart/Smart';
-import SmartDumpExample from './15-SmartDumpExample/SmartDumpExample';
-import Redux from './16-Redux/Redux';
-import ActionTypes from './17-ActionTypes/ActionTypes';
-import ActionCreators from './18-ActionCreators/ActionCreators';
-import PayloadCreators from './19-PayloadCreators/PayloadCreators';
-import Stop from './20-Stop/Stop';
-import Reducers from './20-Reducers/Reducers';
-import StateCreators from './21-StateCreators/StateCreators';
-import ActionReducers from './22-ActionReducers/ActionReducers';
-import Effects from './23-Effects/Effects';
-import RequestCreators from './24-RequestCreators/RequestCreators';
-import Sagas from './25-Sagas/Sagas';
-import Selectors from './26-Selectors/Selectors';
-import SelectorsUsage from './27-SelectorUsage/SelectorsUsage';
+import Topic from './Topic/Topic';
+import Contacts from './Contacts/Contacts';
+import Intro1 from './Intro1/Intro';
+import Intro2 from './Intro2/Intro';
+import Intro3 from './Intro3/Intro';
+import Intro4 from './Intro4/Intro';
+import Intro5 from './Intro5/Intro';
+import Intro6 from './Intro6/Intro';
+import Intro7 from './Intro7/Intro';
+import Intro8 from './Intro8/Intro';
+import Intro9 from './Intro9/Intro';
+import Intro10 from './Intro10/Intro';
+import Intro11 from './Intro11/Intro';
+import Intro12 from './Intro12/Intro';
+import Plan from './Plan/Plan';
+import TechnologyStack from './TechnologyStack/TechnologyStack';
+import ProjectStructure from './ProjectStructure/ProjectStructure';
+import ArchitectureScheme from './ArchitectureScheme/ArchitectureScheme';
+import Composition from './Composition/Composition';
+import CompositionImplementation from './CompositionImplementation/CompositionImplementation';
+import CompositionTask from './CompositionTask/CompositionTask';
+import CompositionExample from './CompositionExample/CompositionExample';
+import SmartDump from './SmartDump/SmartDump';
+import SmartDumpImage from './SmartDumpImage/SmartDumpImage';
+import Dump from './Dump/Dump';
+import Smart from './Smart/Smart';
+import SmartDumpExample from './SmartDumpExample/SmartDumpExample';
+import Redux from './Redux/Redux';
+import ActionTypes from './ActionTypes/ActionTypes';
+import ActionCreators from './ActionCreators/ActionCreators';
+import PayloadCreators from './PayloadCreators/PayloadCreators';
+import Stop from './Stop/Stop';
+import Reducers from './Reducers/Reducers';
+import StateCreators from './StateCreators/StateCreators';
+import ActionReducers from './ActionReducers/ActionReducers';
+import Effects from './Effects/Effects';
+import RequestCreators from './RequestCreators/RequestCreators';
+import RequestEffect from './RequestEffect/RequestEffect';
+import Sagas from './Sagas/Sagas';
+import Selectors from './Selectors/Selectors';
+import SelectorsUsage from './SelectorUsage/SelectorsUsage';
+import AdvantagesDisadvantages from './AdvantagesDisadvantages/AdvantagesDisadvantages';
 
 export default [
   Topic,
   Contacts,
+  Intro1,
+  Intro2,
+  Intro3,
+  Intro4,
+  Intro5,
+  Intro6,
+  Intro7,
+  Intro8,
+  Intro9,
+  Intro10,
+  Intro11,
+  Intro12,
   Plan,
   TechnologyStack,
   ProjectStructure,
@@ -53,7 +79,9 @@ export default [
   ActionReducers,
   Effects,
   RequestCreators,
+  RequestEffect,
   Sagas,
   Selectors,
   SelectorsUsage,
+  AdvantagesDisadvantages,
 ];

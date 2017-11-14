@@ -1,10 +1,13 @@
 import React from 'react';
 import slides from './slides';
 
-const Presentation = ({ currentSlide }) => (
-  <div id="content">
-    { slides.map((Slide, index) => <Slide key={index} isActive={(index + 1) === currentSlide} />) }
-  </div>
-);
+const Presentation = ({ currentSlide }) => {
+  const Slide = slides[currentSlide - 1];
+  return (
+    <div id="content">
+      <Slide isActive />
+    </div>
+  );
+}
 
 export default Presentation;
