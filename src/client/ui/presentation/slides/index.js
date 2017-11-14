@@ -40,6 +40,8 @@ import Sagas from './Sagas/Sagas';
 import Selectors from './Selectors/Selectors';
 import SelectorsUsage from './SelectorUsage/SelectorsUsage';
 import AdvantagesDisadvantages from './AdvantagesDisadvantages/AdvantagesDisadvantages';
+import Thanks from './Thanks/Thanks';
+import Links from './Links/Links';
 
 export default [
   Topic,
@@ -84,4 +86,6 @@ export default [
   Selectors,
   SelectorsUsage,
   AdvantagesDisadvantages,
+  Thanks,
+  Links,
 ];
