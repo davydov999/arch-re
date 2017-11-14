@@ -16,12 +16,15 @@ class Highlight extends Component {
       <div>
         <pre>
           <code
-            ref={(instance) => { this.instance = instance; }}
+            ref={(instance) => {
+              this.instance = instance;
+            }}
             className={className}
             style={style}
-          >
-            {children}
-          </code>
+            dangerouslySetInnerHTML={{
+              __html: children,
+            }}
+          />
         </pre>
       </div>
     );
