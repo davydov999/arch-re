@@ -39,6 +39,7 @@ import RequestEffect from './RequestEffect/RequestEffect';
 import Sagas from './Sagas/Sagas';
 import Selectors from './Selectors/Selectors';
 import SelectorsUsage from './SelectorUsage/SelectorsUsage';
+import HowItWorks from './HowItWorks/HowItWorks';
 import AdvantagesDisadvantages from './AdvantagesDisadvantages/AdvantagesDisadvantages';
 import Thanks from './Thanks/Thanks';
 import Links from './Links/Links';
@@ -85,6 +86,7 @@ export default [
   Sagas,
   Selectors,
   SelectorsUsage,
+  HowItWorks,
   AdvantagesDisadvantages,
   Thanks,
   Links,

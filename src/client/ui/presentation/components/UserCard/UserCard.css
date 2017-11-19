@@ -1,0 +1,41 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 220px;
+    background: #fff;
+    /*  border: 1px solid #ddd; */
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.user-card--head {
+    width: 300px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.user-card--user-info {
+    position: absolute;
+    top: calc(50% - 32px);
+    text-align: center;
+}
+
+.user-card--img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.user-card--name {
+    color: #3c3c3c;
+    font-size: 16px;
+}
+
+.user-card--description {
+    color: #8c8c8c;
+    font-size: 12px;
+    padding-top: 5px;
+}

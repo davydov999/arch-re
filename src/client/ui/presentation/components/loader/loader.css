@@ -1,0 +1,67 @@
+.loader-container {
+  width: 100%;
+  min-height: 49px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.loader-label {
+  padding-top: 5px;
+  color: #898989;
+  font-weight: 400;
+}
+
+.loader-wheel {
+  width: 29px;
+  height: 29px;
+  margin: 0 auto;
+  border: 2px solid #898989;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  animation: cssload-spin 575ms infinite ease-in-out;
+  -o-animation: cssload-spin 575ms infinite ease-in-out;
+  -ms-animation: cssload-spin 575ms infinite ease-in-out;
+  -webkit-animation: cssload-spin 575ms infinite ease-in-out;
+  -moz-animation: cssload-spin 575ms infinite ease-in-out;
+}
+
+.loader-container.full-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+  transition: 0ms;
+}
+
+.loader-container.hide {
+  display: none;
+}
+
+@keyframes cssload-spin {
+  100%{ transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-o-keyframes cssload-spin {
+  100%{ -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-ms-keyframes cssload-spin {
+  100%{ -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-webkit-keyframes cssload-spin {
+  100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-moz-keyframes cssload-spin {
+  100%{ -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}

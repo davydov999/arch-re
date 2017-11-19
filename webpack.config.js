@@ -34,6 +34,7 @@ const config = {
   resolve: {
     extensions: ['.js', '.jsx'],
     alias: {
+      stateManagement: path.join(__dirname, './src/client/stateManagement'),
       state: path.join(__dirname, './src/client/stateManagement/state'),
     },
   },

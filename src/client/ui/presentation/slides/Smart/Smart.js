@@ -13,7 +13,7 @@ import { connect } from 'react-redux';
 import { getUserAC } from 'state/user/actionCreators';
 
 function componentDidMount() {
-  this.props.dispatch(getUserAC());
+  this.props.dispatch(getUserAC(this.props.id));
 }
 
 const enhance = compose(

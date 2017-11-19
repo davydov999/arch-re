@@ -9,7 +9,7 @@ const Effects = ({ isActive }) => (
       <div className="slide-head">Effects (E)</div>
       <Highlight className="js">
 {`// effects.js
-import requestE from 'stateManagement/effects/http/requestEffect';
+import requestE from 'stateManagement/lib/effects/requestEffect';
 import { getUserSuccessAC, getUserFailedAC } from './actionCreators';
 import { getUserRC } from './requestCreators';
 

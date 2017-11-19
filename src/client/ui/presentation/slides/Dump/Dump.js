@@ -11,7 +11,7 @@ const SmartDump = ({ isActive }) => (
       <Highlight className="js">
 {escape(`const UserCard = ({ user }) => (
   <div className="user-card">
-    <img src="{user.imageUrl}"/>
+    <img src={user.imageUrl} />
     <div>{user.username}</div>
     <div>{user.email}</div>
   </div>

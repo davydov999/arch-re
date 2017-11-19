@@ -5,6 +5,7 @@
       "plugins": [
         "transform-object-rest-spread",
         "transform-regenerator",
+        "transform-export-extensions",
         ["lodash", { "id": ["lodash", "recompose"] }]
       ]
     },
@@ -14,6 +15,7 @@
         "react-hot-loader/babel",
         "transform-object-rest-spread",
         "transform-regenerator",
+        "transform-export-extensions",
         ["lodash", { "id": ["lodash", "recompose"] }]
       ]
     }

@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux';
 import { persistCombineReducers } from 'redux-persist';
+import storage from 'redux-persist/es/storage';
 
 import presentation from './state/presentation/reducer';
-import storage from 'redux-persist/es/storage';
+import user from './state/user/reducer';
 
 const config = {
   key: 'root',
@@ -11,6 +11,7 @@ const config = {
 
 const reducers = persistCombineReducers(config, {
   presentation,
+  user,
 });
 
 export default reducers;
